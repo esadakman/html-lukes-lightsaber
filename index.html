@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightsaber</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        
+        function myfunction() {
+            var audio = new Audio('coolsaber.mp3');
+            audio.play();
+        }
+
+
+        type = "text/javascript">
+            window.setTimeout(function(){
+                alert("Hello there! Click on the lightsaber!!");
+            }, 500); 
+    </script>
+</head>
+
+<body>
+
+    <div class="lightsaber">
+        <input type="checkbox" id="on-off" onchange="myfunction();">
+        <div class="blade"></div>
+        <label class="hilt" for="on-off">
+        </label>
+
+    </div>
+
+</body>
+
+</html>
