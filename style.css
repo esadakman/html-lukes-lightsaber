@@ -14,7 +14,7 @@ body {
 
 label:last-child {
     position: relative;
-    background-image: url(/hilt.png);
+    background-image: url(./hilt.png);
     width: 45px;
     height: 205px;
     background-size: 40px 200px;
